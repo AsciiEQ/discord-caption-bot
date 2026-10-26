@@ -1,0 +1,25 @@
+{
+  "name": "asciieq-discord-bot",
+  "version": "1.0.0",
+  "description": "AsciiEQ Discord voice caption bot — streams per-user audio over local WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.19.2",
+    "@noble/ciphers": "^2.1.1",
+    "discord.js": "^14.26.2",
+    "dotenv": "^17.4.1",
+    "prism-media": "^1.3.5",
+    "ws": "^8.20.0"
+  }
+}
